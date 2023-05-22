@@ -18,7 +18,6 @@ export const ImageWrapper = styled.div`
 
 export const CarouselImage = styled.img`
   width: 270px;
-  
   height: 241px;
   border-radius: 12px;
   object-fit: cover;
