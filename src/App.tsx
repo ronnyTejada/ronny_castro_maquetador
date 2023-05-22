@@ -1,7 +1,7 @@
 import React from "react";
 import GlobalStyle from "./globalStyles";
 
-//sections
+
 import Hero from "./sections/Hero/Hero";
 import Gallery from "./sections/Gallery/Gallery";
 import MostListened from "./sections/MostListened/MostListened";
