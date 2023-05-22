@@ -97,7 +97,7 @@ const Form = () => {
           name="razon"
           onChange={(e) => handleChange(e.target.value, e?.target.name)}
         >
-          <option disabled   defaultValue={'DEFAULT'}  hidden>
+          <option disabled selected hidden>
             Razón
           </option>
           {selectData.map((el) => {
