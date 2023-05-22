@@ -17,7 +17,7 @@ import {
 const MostListened = () => {
   return (
     <Section height="100vh">
-      <Heading green={false}>{mostListenedTitle}</Heading>
+      <Heading green={true}>{mostListenedTitle}</Heading>
       <MostListenedTextSection>
         <TextWrapper color="#FFFFFF" weight={"200"} size={"16x"}>
           {mostListenedText.slice(0, 52)}

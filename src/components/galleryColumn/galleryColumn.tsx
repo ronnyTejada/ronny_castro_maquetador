@@ -5,8 +5,8 @@ import { Column, ColumnItem } from "./galleryColumnStyles";
 const GalleryColumn = () => {
   return (
     <Column>
-      {galleryImages.map((el) => {
-        return <ColumnItem src={el} />;
+      {galleryImages.map((el,index) => {
+        return <ColumnItem src={el} key={index}/>;
       })}
     </Column>
   );
